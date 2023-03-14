@@ -1,1 +1,5 @@
-All good
+For this project I created a terminal shell. The shell can handle most commands (cd, ls, pwd etc) and will throw an error if the command syntax is incorrect. 
+
+Challenges: 
+The primary challenge was dealing with text parsing, which is not very easy in C. I had to learn how to use strtok_r and in the process developed a deep understanding of how strings are delimited in C. 
+I also struggled with considering all the possible edge cases of errors. I had to be careful that no possible user input would learn to a segmentation fault.
