@@ -1,0 +1,170 @@
+chapmanmartind p4shell grade: 68/63 
+ 
+https://phoenixforge.cs.uchicago.edu/svn/chapmanmartind-cs154-win-23 
+We graded your revision number: 23 
+
+$ make
+gcc -Wall -Werror -o myshell myshell.c
+
+$ /local/zxxia/cs154-win-23-admin/grading/p4shell/p4shell/test-scripts/grade.py
+You are in the right directory
+Don't delete clean.sh
+Don't delete grade.py
+Don't delete runOneTest.sh
+----------------------------------
+Running batch file: gooduser_basic
+Diffing gooduser_basic.stdout
+
+
+Diffing gooduser_basic.stderr
+
+
+gooduser_basic       7  7
+----------------------------------
+Running batch file: gooduser_args
+Diffing gooduser_args.stdout
+
+
+Diffing gooduser_args.stderr
+
+
+gooduser_args        7  7
+----------------------------------
+Running batch file: gooduser_redirection
+Diffing gooduser_redirection.stdout
+
+
+Diffing gooduser_redirection.stderr
+
+
+Diffing gooduser_redirection_rd_1
+
+
+Diffing gooduser_redirection_rd_2
+
+
+gooduser_redirection 2  2
+----------------------------------
+Running batch file: gooduser_multipleCommand
+Diffing gooduser_multipleCommand.stdout
+
+
+Diffing gooduser_multipleCommand.stderr
+
+
+gooduser_multipleCommand 7  7
+----------------------------------
+Running batch file: buildin_wrongFormat
+Diffing buildin_wrongFormat.stdout
+
+
+Diffing buildin_wrongFormat.stderr
+
+
+buildin_wrongFormat  7  7
+----------------------------------
+Running batch file: cd_toFolderNotExist
+Diffing cd_toFolderNotExist.stdout
+
+
+Diffing cd_toFolderNotExist.stderr
+
+
+cd_toFolderNotExist  3  3
+----------------------------------
+Running batch file: badCommand
+Diffing badCommand.stdout
+
+
+Diffing badCommand.stderr
+
+
+badCommand           4  4
+----------------------------------
+Running batch file: complexCommand
+Diffing complexCommand.stdout
+
+
+Diffing complexCommand.stderr
+
+
+complexCommand       6  6
+----------------------------------
+Running batch file: multipleCommand
+Diffing multipleCommand.stdout
+
+
+Diffing multipleCommand.stderr
+
+
+multipleCommand      8  8
+----------------------------------
+Running batch file: complexRedirection_format
+Diffing complexRedirection_format.stdout
+
+
+Diffing complexRedirection_format.stderr
+
+
+Diffing complexRedirection_format_rd_1
+
+
+Diffing complexRedirection_format_rd_2
+
+
+Diffing complexRedirection_format_rd_3
+
+
+Diffing complexRedirection_format_rd_4
+
+
+Diffing complexRedirection_format_rd_5
+
+
+Diffing complexRedirection_format_rd_6
+
+
+Diffing complexRedirection_format_rd_7
+
+
+Diffing complexRedirection_format_rd_8
+
+
+complexRedirection_format 2  2
+----------------------------------
+Running batch file: complexRedirection_illegal
+Diffing complexRedirection_illegal.stdout
+
+
+Diffing complexRedirection_illegal.stderr
+
+
+Diffing complexRedirection_illegal_rd_1
+
+
+complexRedirection_illegal 1  1
+----------------------------------
+Running batch file: emptyInput
+Diffing emptyInput.stdout
+
+
+Diffing emptyInput.stderr
+
+
+emptyInput           1  1
+----------------------------------
+Running batch file: 1KCommand
+Diffing 1KCommand.stdout
+
+
+Diffing 1KCommand.stderr
+
+
+1KCommand            3  3
+two arguments        2  2
+does not exist       2  2
+File name            1  1
+Makefile and README  5  5
+total                68  63
+
+Final Grade: 68
